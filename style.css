@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+.main-container {
+  background-color: #f8f9fa;
+  padding: 48px 0 48px 0;
+ 
+  display: -ms-grid;
+  display: grid;
+
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  grid-gap: 25px;
+}
+.drag-title{
+    text-align: center;
+    font-size: 30px;
+}
+.box {
+  background-color: #fff;
+  border: 2px solid #2e353ca8; 
+  margin-top: 1rem;
+}
+
+.draggable {
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid black;
+  cursor: move;
+  margin: 20px;
+  height: 100px;
+}
+
+.draggable.dragging {
+  opacity: 0.5;
+}
+
+#green {
+  background-color: rgb(109, 135, 101);
+  border: 1px solid rgb(66, 85, 60);
+}
+#orange {
+  background-color: rgb(250, 104, 16);
+  border: 1px solid rgb(196, 86, 18);
+}
+#pink {
+  background-color: rgb(223, 171, 195);
+  border: 1px solid rgb(178, 125, 150);
+}
+#yellow {
+  background-color: rgb(226, 240, 35);
+  border: 1px solid rgb(173, 120, 35);
+}
+#violet {
+  background-color: rgb(117, 96, 136);
+  border: 1px solid rgb(88, 67, 107);
+}
+#sky {
+  background-color: rgb(176, 227, 230);
+  border: 1px solid rgb(110, 169, 173);
+}
